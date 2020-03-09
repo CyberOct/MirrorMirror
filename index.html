@@ -15,6 +15,11 @@
 	<!-- Bootstrap CSS from CDN -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <!-- Rotating cards -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/rotating-card.css" rel="stylesheet" />
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
 	<!-- My stylesheet -->
 	<link rel="stylesheet" type="text/css" href="paper-kit.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -44,13 +49,22 @@
             <a href="#ourmission" class="nav-link"><img class= "my-icons" src="resources/about-us.png">About US</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
+            <a href="#prices" class="nav-link"><img class= "my-icons" src="resources/portofolio.png">Portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#prices" class="nav-link"><img class= "my-icons" src="resources/prices.png">Prices</a>
+          </li>
+          <li class="nav-item">
+            <a href="#prices" class="nav-link"><img class= "my-icons" src="resources/contact.png">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/mirrormirror.ro/" target="_blank">
               <i class="fab fa-facebook-square"></i>
               <p class="d-lg-none">Facebook</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
+            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/mirrorphoto_booth" target="_blank">
               <i class="fab fa-instagram-square"></i>
               <p class="d-lg-none">Instagram</p>
             </a>
@@ -150,131 +164,116 @@
         </div>
       </div>
     </div>
-    <div class="section section-dark text-center">
-      <div class="container">
-        <h2 class="title">Let's talk about us</h2>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card card-profile card-plain">
-              <div class="card-avatar">
-                <a href="#avatar">
-                  <img src="../assets/img/faces/clem-onojeghuo-3.jpg" alt="...">
-                </a>
-              </div>
-              <div class="card-body">
-                <a href="#paper-kit">
-                  <div class="author">
-                    <h4 class="card-title">Henry Ford</h4>
-                    <h6 class="card-category">Product Manager</h6>
-                  </div>
-                </a>
-                <p class="card-description text-center">
-                  Teamwork is so important that it is virtually impossible for you to reach the heights of your capabilities or make the money that you want without becoming very good at it.
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-twitter"></i></a>
-                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-google-plus"></i></a>
-                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-profile card-plain">
-              <div class="card-avatar">
-                <a href="#avatar">
-                  <img src="../assets/img/faces/joe-gardner-2.jpg" alt="...">
-                </a>
-              </div>
-              <div class="card-body">
-                <a href="#paper-kit">
-                  <div class="author">
-                    <h4 class="card-title">Sophie West</h4>
-                    <h6 class="card-category">Designer</h6>
-                  </div>
-                </a>
-                <p class="card-description text-center">
-                  A group becomes a team when each member is sure enough of himself and his contribution to praise the skill of the others. No one can whistle a symphony. It takes an orchestra to play it.
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-twitter"></i></a>
-                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-google-plus"></i></a>
-                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-profile card-plain">
-              <div class="card-avatar">
-                <a href="#avatar">
-                  <img src="../assets/img/faces/erik-lucatero-2.jpg" alt="...">
-                </a>
-              </div>
-              <div class="card-body">
-                <a href="#paper-kit">
-                  <div class="author">
-                    <h4 class="card-title">Robert Orben</h4>
-                    <h6 class="card-category">Developer</h6>
-                  </div>
-                </a>
-                <p class="card-description text-center">
-                  The strength of the team is each individual member. The strength of each member is the team. If you can laugh together, you can work together, silence isn’t golden, it’s deadly.
-                </p>
-              </div>
-              <div class="card-footer text-center">
-                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-twitter"></i></a>
-                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-google-plus"></i></a>
-                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="section section-dark text-center cards">
+
     </div>
-    <div class="section landing-section">
+    
+    <div class="main" id="ourmission">
+    <div class="section text-center">
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto">
-            <h2 class="text-center">Keep in touch?</h2>
-            <form class="contact-form">
-              <div class="row">
-                <div class="col-md-6">
-                  <label>Name</label>
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="nc-icon nc-single-02"></i>
-                      </span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Name">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <label>Email</label>
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="nc-icon nc-email-85"></i>
-                      </span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Email">
-                  </div>
-                </div>
+            <h2 class="title">Our Mission</h2>
+            <h5 class="description">Our purpose is to catch the most beautiful moments of your life and your beloved ones, and transform them into the best memories, and stories to tell.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h5>
+            <br>
+            <a href="#paper-kit" class="btn btn-danger btn-round">See Details</a>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="info">
+              <div class="icon icon-danger">
+                <i class="nc-icon nc-album-2"></i>
               </div>
-              <label>Message</label>
-              <textarea class="form-control" rows="4" placeholder="Tell us your thoughts and feelings..."></textarea>
-              <div class="row">
-                <div class="col-md-4 ml-auto mr-auto">
-                  <button class="btn btn-danger btn-lg btn-fill">Send Message</button>
-                </div>
+              <div class="description">
+                <h4 class="info-title">Beautiful Gallery</h4>
+                <p class="description">Spend your time generating new ideas. You don't have to think of implementing.</p>
+                <a href="javascript:;" class="btn btn-link btn-danger">See more</a>
               </div>
-            </form>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="info">
+              <div class="icon icon-danger">
+                <i class="nc-icon nc-bulb-63"></i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">New Ideas</h4>
+                <p>Larger, yet dramatically thinner. More powerful, but remarkably power efficient.</p>
+                <a href="javascript:;" class="btn btn-link btn-danger">See more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="info">
+              <div class="icon icon-danger">
+                <i class="nc-icon nc-chart-bar-32"></i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Statistics</h4>
+                <p>Choose from a veriety of many colors resembling sugar paper pastels.</p>
+                <a href="javascript:;" class="btn btn-link btn-danger">See more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="info">
+              <div class="icon icon-danger">
+                <i class="nc-icon nc-sun-fog-29"></i>
+              </div>
+              <div class="description">
+                <h4 class="info-title">Delightful design</h4>
+                <p>Find unique and handmade delightful designs related items directly from our sellers.</p>
+                <a href="javascript:;" class="btn btn-link btn-danger">See more</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+    <div id="carousel">
+    <!--    
+            IMPORTANT - This carousel can have a special class for a smooth transition "gsdk-transition". Since javascript cannot be overwritten, if you want to use it, you can use the bootstrap.js or bootstrap.min.js from the GSDKit or you can open your bootstrap.js file, search for "emulateTransitionEnd(600)" and change it with "emulateTransitionEnd(1200)"     
+            
+    -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item">
+          <img src="resources/portofolio/portofolio1.jpg" alt="Awesome Image">
+        </div>
+        <div class="item">
+          <img src="resources/portofolio/portofolio2.jpg" alt="Awesome Image">
+        </div>
+        <div class="item active">
+          <img src="resources/portofolio/portofolio3.jpg" alt="Awesome Image">
+        </div>
+      </div>
+    
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="fa fa-angle-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="fa fa-angle-right"></span>
+      </a>
+    </div>
+</div>
   <footer class="footer   footer-white ">
     <div class="container">
       <div class="row">
