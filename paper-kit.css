@@ -6076,16 +6076,16 @@ License - nucleoapp.com/license/
 }
 
 .card .author .avatar {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   overflow: hidden;
   border-radius: 50%;
   margin-right: 5px;
 }
 
 .card .author .avatar-big {
-  width: 100px;
-  height: 100px;
+  width: 500px;
+  height: 500px;
   border-radius: 50% !important;
   position: relative;
   margin-bottom: 15px;
@@ -6589,8 +6589,8 @@ License - nucleoapp.com/license/
 }
 
 .card-profile .card-avatar {
-  max-width: 120px;
-  max-height: 120px;
+  max-width: 250px;
+  max-height: 250px;
   margin: -60px auto 0;
   border-radius: 50%;
   overflow: hidden;
